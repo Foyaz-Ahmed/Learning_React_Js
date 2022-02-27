@@ -4,11 +4,13 @@ import Welcome from './mycomponents/Welcome';
 import PropsFunction from './mycomponents/Props';
 import PropsClass from './mycomponents/PropsClass';
 import ClickEventFunction from './mycomponents/ClickEventFunction';
-import ClickEventInClass
- from './mycomponents/ClickEventInClass';
+import ClickEventInClass from './mycomponents/ClickEventInClass';
+import Arrow
+ from './mycomponents/ArrowFunction';
 function App() {
   return (
     <div className="App">
+
       {/* <Hello></Hello>
       <Welcome></Welcome> */}
 
@@ -19,15 +21,17 @@ function App() {
       <PropsFunction name="Nazim Ahmed" age="24"></PropsFunction> */}
 
       {/* Props Used in Class */}
-
       {/* <PropsClass name="Foyaz"></PropsClass>
       <PropsClass name="Bulbul"></PropsClass>
       <PropsClass name="Nazim"></PropsClass>
       <PropsClass name="Mehedi"></PropsClass> */}
 
-      
+      {/* Click Event
       <ClickEventFunction></ClickEventFunction>
-      <ClickEventInClass></ClickEventInClass>
+      <ClickEventInClass></ClickEventInClass> */}
+
+      <Arrow/>
+
     </div>
   );
 }

@@ -10,7 +10,7 @@ class ClickEventInClass extends Component{
         return <div>
                      {/* if we use doThis() then the function called befor clicking the button */}
                      {/* <button onClick={doThis()}>Click me</button> */}
-                    <button onClick={this.doThis.bind(this, "I am from class")}>Click me</button>
+                    <button className='btn btn-danger' onClick={this.doThis.bind(this, "I am from class")}>Click me</button>
                 </div>
     }
 
