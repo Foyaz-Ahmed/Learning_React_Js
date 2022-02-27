@@ -5,8 +5,9 @@ import PropsFunction from './mycomponents/Props';
 import PropsClass from './mycomponents/PropsClass';
 import ClickEventFunction from './mycomponents/ClickEventFunction';
 import ClickEventInClass from './mycomponents/ClickEventInClass';
-import Arrow
- from './mycomponents/ArrowFunction';
+import Arrow from './mycomponents/ArrowFunction';
+import State from './mycomponents/State';
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,10 @@ function App() {
       <ClickEventFunction></ClickEventFunction>
       <ClickEventInClass></ClickEventInClass> */}
 
-      <Arrow/>
+      {/* Arrow Function
+      <Arrow/> */}
+
+      <State></State>
 
     </div>
   );
