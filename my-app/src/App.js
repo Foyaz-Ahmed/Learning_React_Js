@@ -7,6 +7,7 @@ import ClickEventFunction from './mycomponents/ClickEventFunction';
 import ClickEventInClass from './mycomponents/ClickEventInClass';
 import Arrow from './mycomponents/ArrowFunction';
 import State from './mycomponents/State';
+import SetStateChnge from './mycomponents/SetState';
 
 function App() {
   return (
@@ -34,8 +35,9 @@ function App() {
       {/* Arrow Function
       <Arrow/> */}
 
-      <State></State>
-
+      {/* state and nested state
+      <State></State> */}
+      <SetStateChnge></SetStateChnge>
     </div>
   );
 }
