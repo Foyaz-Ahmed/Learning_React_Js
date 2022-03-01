@@ -10,6 +10,7 @@ import State from './mycomponents/State';
 import SetStateChnge from './mycomponents/SetState';
 import ConditionalIfelse from './mycomponents/Conditional';
 import Element from './mycomponents/ElementVariable';
+import Refresh from './mycomponents/Refresh';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
        <SetStateChnge></SetStateChnge> 
        <ConditionalIfelse></ConditionalIfelse>
        <Element></Element>
+       <Refresh></Refresh>
     </div>
   );
 }
