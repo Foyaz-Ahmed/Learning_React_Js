@@ -11,6 +11,8 @@ import SetStateChnge from './mycomponents/SetState';
 import ConditionalIfelse from './mycomponents/Conditional';
 import Element from './mycomponents/ElementVariable';
 import Refresh from './mycomponents/Refresh';
+import Render from './mycomponents/Render';
+import FindDom from './mycomponents/FindDom';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
        <ConditionalIfelse></ConditionalIfelse>
        <Element></Element>
        <Refresh></Refresh>
+       <Render></Render>
+       <FindDom></FindDom>
     </div>
   );
 }
