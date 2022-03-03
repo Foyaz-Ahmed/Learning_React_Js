@@ -5,26 +5,29 @@ class Form extends Component {
     constructor(){
         super();
         this.state ={
-            name: ""
+            username: ""
         }
     }
 
     changeName=(event)=>{
-        var getName = event.target.value;
+        //var getName = event.target.value;
+        var name = event.target.name;
+        var nameValue = event.target.value;
 
         this.setState(
             {
-                name: getName
+                [name]:nameValue
             }
         )
+
     }
 
     render() {
         return (
             <div>
                 <form>
-                    <p>{this.state.name}</p>
-                    <input onChange={this.changeName} className='mt-2 mb-2' type="text" placeholder='your name'/><br/>
+                    <p>{this.state.username}</p>
+                    <input name="username" onChange={this.changeName} className='mt-2 mb-2' type="text" placeholder='your name'/><br/>
                     <input type = "submit" value="submit"/>
                 </form>
             </div>
