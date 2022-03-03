@@ -13,6 +13,7 @@ import Element from './mycomponents/ElementVariable';
 import Refresh from './mycomponents/Refresh';
 import Render from './mycomponents/Render';
 import FindDom from './mycomponents/FindDom';
+import Form from './mycomponents/Form';
 
 function App() {
   return (
@@ -42,12 +43,14 @@ function App() {
 
       {/* state and nested state
       <State></State> */}
-       <SetStateChnge></SetStateChnge> 
+       {/* <SetStateChnge></SetStateChnge> 
        <ConditionalIfelse></ConditionalIfelse>
        <Element></Element>
        <Refresh></Refresh>
        <Render></Render>
-       <FindDom></FindDom>
+       <FindDom></FindDom> */}
+       
+       <Form></Form>
     </div>
   );
 }
