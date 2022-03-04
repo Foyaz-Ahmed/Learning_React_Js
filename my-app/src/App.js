@@ -14,6 +14,7 @@ import Refresh from './mycomponents/Refresh';
 import Render from './mycomponents/Render';
 import FindDom from './mycomponents/FindDom';
 import Form from './mycomponents/Form';
+import MulitpleInput from './mycomponents/MulitpleInput';
 
 function App() {
   return (
@@ -50,7 +51,9 @@ function App() {
        <Render></Render>
        <FindDom></FindDom> */}
        
-       <Form></Form>
+       {/* <Form></Form> */}
+
+       <MulitpleInput></MulitpleInput>
     </div>
   );
 }
