@@ -21,11 +21,14 @@ class Form extends Component {
         )
 
     }
+    onSubmitHandler=()=>{
+        alert(this.state.username);
+    }
 
     render() {
         return (
             <div>
-                <form>
+                <form onSubmit={this.onSubmitHandler}>
                     <p>{this.state.username}</p>
                     <input name="username" onChange={this.changeName} className='mt-2 mb-2' type="text" placeholder='your name'/><br/>
                     <input type = "submit" value="submit"/>
