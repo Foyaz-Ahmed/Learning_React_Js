@@ -15,6 +15,7 @@ import Render from './mycomponents/Render';
 import FindDom from './mycomponents/FindDom';
 import Form from './mycomponents/Form';
 import MulitpleInput from './mycomponents/MulitpleInput';
+import TextArea from './mycomponents/TextArea';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
        
        {/* <Form></Form> */}
 
-       <MulitpleInput></MulitpleInput>
+       {/* <MulitpleInput></MulitpleInput> */}
+       <TextArea/>
     </div>
   );
 }
