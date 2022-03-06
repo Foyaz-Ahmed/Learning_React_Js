@@ -29,7 +29,6 @@ class List extends Component {
                 <select>
                     {list}
                 </select>
-                <h1>Kochu</h1>
             </div>
         );
     }

@@ -17,6 +17,7 @@ import Form from './mycomponents/Form';
 import MulitpleInput from './mycomponents/MulitpleInput';
 import TextArea from './mycomponents/TextArea';
 import List from './mycomponents/List';
+import JsonList from './mycomponents/JsonList';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
 
        {/* <MulitpleInput></MulitpleInput> */}
        {/* <TextArea/> */}
-       <List></List>
+       {/* <List></List> */}
+       <JsonList></JsonList>
     </div>
   );
 }
